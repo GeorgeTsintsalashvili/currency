@@ -1,0 +1,266 @@
+
+html * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Castro', serif;
+}
+
+body{
+  background-color: #dbe3e8;
+}
+
+a{
+  text-decoration: none;
+}
+
+#header{
+  width: 100%;
+  position: relative;
+  background-color: #00465f;
+  color: #fff;
+}
+
+#navigation .switch a{
+  padding: 10px;
+  color: #272727;
+  display: block;
+  font-size: 20px;
+}
+
+#navigation .switch.active a{
+  background-color: #585858;
+  color: #fff;
+}
+
+#exchange-rates{
+  background-color: #fff;
+  border: 1px solid #9d9d9d;
+}
+
+#invert-button{
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  width: 42px;
+}
+
+#items-label{
+  font-size: 24px;
+  color: #363636;
+}
+
+#history-list,
+#currencies-list{
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+#history-list li,
+#currencies-list li{
+  margin-bottom: 6px;
+}
+
+#history-list li span,
+#history-list li b,
+#currencies-list li span,
+#currencies-list li b{
+  font-size: 22px;
+}
+
+#history-list li b,
+#currencies-list li b{
+  color: #383838;
+}
+
+#history-list li span:last-child,
+#currencies-list li span:last-child{
+  margin-left: 10px;
+}
+
+#history-list li img,
+#currencies-list li img{
+  margin-right: 10px;
+}
+
+#currencies-container img{
+  margin-right: 6px;
+}
+
+#currencies-container .image{
+  margin-bottom: 6px;
+}
+
+.tab-pane{
+  display: none;
+}
+
+.tab-pane.active{
+  display: block;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.row{
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row:before,
+.row:after,
+.container:before,
+.container:after{
+  content: " ";
+  display: table;
+}
+
+.col-6,
+.col-3,
+.col-2,
+.col-4{
+  float: left;
+  display: block;
+}
+
+.col-6{
+  width: 50%;
+}
+
+.col-4{
+  width: 40%;
+}
+
+.col-3{
+  width: 33.33%;
+}
+
+.col-2{
+  width: 20%;
+}
+
+.mb10{
+  margin-bottom: 10px;
+}
+
+.mb20{
+  margin-bottom: 20px;
+}
+
+.mb30{
+  margin-bottom: 30px;
+}
+
+.mb40{
+  margin-bottom: 40px;
+}
+
+.mt10{
+  margin-top: 10px;
+}
+
+.mt20{
+  margin-top: 20px;
+}
+
+.mt30{
+  margin-top: 30px;
+}
+
+.mt40{
+  margin-top: 40px;
+}
+
+.mt50{
+  margin-top: 50px;
+}
+
+.pb10{
+  padding-bottom: 10px;
+}
+
+.pb20{
+  padding-bottom: 20px;
+}
+
+.pb30{
+  padding-bottom: 30px;
+}
+
+.pb40{
+  padding-bottom: 40px;
+}
+
+.pt10{
+  padding-top: 10px;
+}
+
+.pt20{
+  padding-top: 20px;
+}
+
+.pt30{
+  padding-top: 30px;
+}
+
+.pt40{
+  padding-bottom: 40px;
+}
+
+.mr0{
+  margin: 0;
+}
+
+.pd0{
+  padding: 0;
+}
+
+.fltr{
+  float: right;
+}
+
+.fltl{
+  float: left;
+}
+
+.input-container input,
+.input-container select{
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #aaaaaa;
+  box-sizing: border-box;
+}
+
+.input-container select{
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  appearance:none;
+  cursor: pointer;
+  background: url("../images/arrow-down.png");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: calc(100% - 15px);
+}
+
+.input-container input:focus{
+  border-color: #585858;
+}
+
+#output{
+  width: 100%;
+  font-size: 40px;
+  text-align: right;
+  box-sizing: border-box;
+  color: #585858;
+}
