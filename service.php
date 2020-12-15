@@ -10,7 +10,7 @@ function validateInput($keys)
 
   foreach($keys as $key)
   {
-    if(!(isset($_GET[$key]) || !is_string($_GET[$key])))
+    if(!(isset($_GET[$key]) && is_string($_GET[$key])))
     {
       $parametersAreValid = false;
 
