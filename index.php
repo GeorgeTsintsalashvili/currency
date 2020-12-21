@@ -9,7 +9,7 @@
  <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
  <link href="css/style.css" rel="stylesheet">
- <meta charset="utf-8"/> 
+ <meta charset="utf-8"/>
 
 </head>
 
