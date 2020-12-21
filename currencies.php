@@ -2,7 +2,7 @@
 
 return [
   'GBP' => 'Pound sterling',
-  'EUR' => 'European euro', 
+  'EUR' => 'European euro',
   'USD' => 'United States dollar',
   'RUB' => 'Russian ruble',
   'CAD' => 'Canadian dollar',
