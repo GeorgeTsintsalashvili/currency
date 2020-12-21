@@ -1,7 +1,7 @@
 <?php
 
 return [
-  'GBP' => 'Pound sterling',
+  'GBP' => 'Pound sterling', 
   'EUR' => 'European euro',
   'USD' => 'United States dollar',
   'RUB' => 'Russian ruble',
