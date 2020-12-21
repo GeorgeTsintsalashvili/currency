@@ -2,7 +2,7 @@
 
 header('Content-Type: application/json');
 
-// validate user input
+// validate user input 
 
 function validateInput($keys)
 {
