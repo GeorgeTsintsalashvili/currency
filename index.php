@@ -5,7 +5,7 @@
 
 <head>
 
- <title> Currency Calculator </title>
+ <title> Currency </title>
  <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
  <link href="css/style.css" rel="stylesheet">
